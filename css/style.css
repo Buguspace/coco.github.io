@@ -306,21 +306,21 @@ header {
   header .colorlib-navbar-brand {
     float: left; }
     header .colorlib-navbar-brand .colorlib-logo {
-      font-size: 20px;
+      font-size: 18px;
       text-transform: uppercase;
       color: #000;
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #f36c6c;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #f36c6c; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
         line-height: 1.2;
-        color: #fff; }
+        color: #2c20cb; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
         text-decoration: none !important; }
       header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
