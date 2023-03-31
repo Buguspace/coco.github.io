@@ -34,7 +34,7 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #777777;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -996,7 +996,7 @@ header {
     border-color: #d49af9 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #4d4d4d;
+    color: #22c88f;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #CA82F8;
