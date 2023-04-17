@@ -5,15 +5,15 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 500);
-  img.resize(500, 500);
+  createCanvas(200, 200);
+  img.resize(200, 200);
 }
 
 function draw() {
   background(255);
   fill(0);
   noStroke();
-  let tiles = mouseX/3;
+  let tiles = mouseX/20;
   let tileSize = width/tiles;
   translate(tileSize/2,tileSize/2);
 
