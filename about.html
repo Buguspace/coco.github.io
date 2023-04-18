@@ -116,7 +116,46 @@
 				</div>
 				<div class="row row-padded-bottom">
 					<div class="col-md-5 animate-box">
-						<img class="img-responsive about-img" src="images/about.jpg" alt="html5 bootstrap template by colorlib.com">
+						
+						<script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+<script language="javascript" type="text/javascript" src="sketch_1111.js">
+  let img;
+
+function preload() {
+  img = loadImage('data/venus.jpg');
+}
+
+function setup() {
+  createCanvas(400, 400);
+  img.resize(400, 400);
+}
+
+function draw() {
+  background(255);
+  fill(0);
+  noStroke();
+  let tiles = mouseX/20;
+  let tileSize = width/tiles;
+  translate(tileSize/2,tileSize/2);
+
+  for (let x = 0; x < tiles; x++) {
+    for (let y = 0; y < tiles; y++) {
+      let c = img.get(int(x * tileSize), int(y * tileSize));
+      let size = map(brightness(c),0,255,tileSize,0);
+      ellipse(x*tileSize, y*tileSize, size, size);
+    }
+  }
+}
+
+  
+  </script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+						
 					</div>
 					<div class="col-md-6 col-md-push-1 animate-box">
 						<div class="about-desc">
