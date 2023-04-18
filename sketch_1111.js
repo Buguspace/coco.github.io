@@ -21,7 +21,7 @@ function draw() {
     for (let y = 0; y < tiles; y++) {
       let c = img.get(int(x * tileSize), int(y * tileSize));
       let size = map(brightness(c),0,255,tileSize,0);
-      ellipse(x*tileSize, y*tileSize, size, size);
+      ellipse(x*tileSize, y*tileSize, size/2, size/2);
     }
   }
 }
