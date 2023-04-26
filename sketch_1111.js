@@ -5,8 +5,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(457, 551);
-  img.resize(457, 551);
+  createCanvas(350, 422);
+  img.resize(350, 422);
 }
 
 function draw() {
